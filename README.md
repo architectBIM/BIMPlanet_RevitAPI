@@ -1,1 +1,1 @@
-![BIMPlanetNo1 Logo](BIMPlanetNo1_Logo.png)
+![BIMPlanetNo1_Logo](BIMPlanetNo1_Logo.png)
