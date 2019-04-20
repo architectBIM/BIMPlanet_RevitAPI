@@ -2,3 +2,5 @@
 import clr
 # Importing RevitServices.dll assembly
 clr.AddReference('RevitServices') # AddReference method allows to add custom *.dll file to the reference list of clr
+from RevitServices.Persistence import DocumentManager as DM
+from RevitServices.Transactions import TransactionManager as TM
