@@ -1,4 +1,2 @@
-# Импортирование модуля clr (Common Language Runtime), необходимого для подгрузки различных библиотек платформы .NET
+# Importing Common Language Runtime module. This allows to import additional .NET assemblies and extension methods to out script
 import clr
-
-#Importing 
