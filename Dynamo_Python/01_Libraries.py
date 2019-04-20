@@ -5,7 +5,11 @@ import clr # To see various methods and properties of clr you can use dir(clr) c
 # Use clr.References command to see the whole list of references
 
 # References to Dynamo libraries
-clr.AddReference('ProtoGeometry') # DesignScript classes for working with geometry
-clr.AddReference('DSCoreNodes') # Dynamo core classes
-clr.AddReference('RevitNodes') # Dynamo classes for interacting with Revit
-clr.AddReference('RevitServices') # Working with Revit document and committing transactions in it
+clr.AddReference('ProtoGeometry') # DesignScript library for working with geometry
+clr.AddReference('DSCoreNodes') # Dynamo core library
+clr.AddReference('RevitNodes') # Dynamo library for various operations with Revit elements
+clr.AddReference('RevitServices') # Dynamo library for working with Revit document and committing transactions in it
+
+# References to Revit API libraries
+clr.AddReference('RevitAPI') # Revit API library
+clr.AddReference('RevitAPIUI') # Revit API User Interface library
