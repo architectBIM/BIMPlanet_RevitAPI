@@ -23,7 +23,7 @@ from RevitServices.Transactions import TransactionManager as TM
 
 # Системные библиотеки
 import System # Работа с системными типами и структурами данных .NET
-from System.Collections.Generic import * # Можно конкретно List указать
+from System.Collections.Generic import * # Можно конкретно указать List
 import sys # Настройки интерпретатора IronPython, путь к библиотекам
 sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\Lib')
 
