@@ -1,6 +1,6 @@
 """
 BIM Planet No1. Знакомство с Dynamo (https://bimplanet.org/)
-Выборка элементов нескольких категорий
+Выборка элементов нескольких категорий через коллектор и цикл
 MIT License, Copyright (c) 2019 Maxim Stepannikov
 """
 
