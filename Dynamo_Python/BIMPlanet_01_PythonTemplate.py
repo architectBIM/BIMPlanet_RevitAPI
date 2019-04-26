@@ -1,7 +1,7 @@
 """
-BIM Planet No1. Знакомство с Dynamo (https://bimplanet.org/)
+BIM Planet No1. Знакомство с Dynamo (https://stepik.org/course/50129)
 Компактный мини-шаблон нода Python Script
-MIT License, Copyright (c) 2019 Maxim Stepannikov
+Copyright (c) 2019 Maxim Stepannikov, https://bimplanet.org
 """
 
 import clr # Модуль для подгрузки .NET библиотек
