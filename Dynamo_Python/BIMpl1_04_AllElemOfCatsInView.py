@@ -26,7 +26,7 @@ catNames = ['OST_Walls','OST_Floors','OST_Rooms'] # Список имен сис
 
 for cn in catNames: # Создание цикла для добавления категорий в типизированный список
 	exec('cat = BuiltInCategory.'+cn) # Исполнение кода на основе поданной строки
-	cats.Add(cat)# Добавляем элементы в типизированный список
+	cats.Add(cat) # Добавляем элементы в типизированный список методом Add
 
 # Создание фильтра. Меняем False на True, если надо исключить элементы, а не оставить их в коллекторе
 filter = ElementMulticategoryFilter(cats,False)
