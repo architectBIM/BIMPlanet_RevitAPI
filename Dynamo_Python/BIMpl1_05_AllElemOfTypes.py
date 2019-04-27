@@ -1,8 +1,9 @@
 """
-BIM Planet No1. Знакомство с Dynamo (https://bimplanet.org/)
+BIM Planet No1. Знакомство с Dynamo (https://stepik.org/course/50129)
 Выборка элементов нескольких классов через коллектор и цикл
-MIT License, Copyright (c) 2019 Maxim Stepannikov
+Copyright (c) 2019 Maxim Stepannikov, https://bimplanet.org
 """
+
 
 import clr # Модуль для подгрузки .NET библиотек
 
