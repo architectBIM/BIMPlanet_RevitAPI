@@ -20,7 +20,7 @@ elems = [] # Создание пустого списка для будущих 
 
 # Написание строки с именами системных категорий через запятую. Расщепляем строку разделителем.
 catNames = 'OST_Walls,OST_Floors,OST_Rooms,OST_Doors'.split(',')
-# catName = ['OST_Walls','OST_Floors','OST_Rooms'] # Можно просто через список строк
+# catNames = ['OST_Walls','OST_Floors','OST_Rooms'] # Можно просто через список строк
 
 for cn in catNames: # Создание цикла для получение элементов каждой из категорий данного списка
 	exec('cat = BuiltInCategory.'+cn) # Исполнение кода на основе поданной строки
