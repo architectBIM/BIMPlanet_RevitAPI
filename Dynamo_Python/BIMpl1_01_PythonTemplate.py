@@ -18,8 +18,8 @@ import Revit # Расширяем исходные методы классов �
 clr.ImportExtensions(Revit.GeometryConversion)
 clr.ImportExtensions(Revit.Elements)
 clr.AddReference('RevitServices') # Работа с документом и транзакциями
-from RevitServices.Persistence import DocumentManager as DM
-from RevitServices.Transactions import TransactionManager as TM
+from RevitServices.Persistence import DocumentManager as DM # Менеджер документа
+from RevitServices.Transactions import TransactionManager as TM # Менеджер транзакций
 
 # Системные библиотеки
 import System # Работа с системными типами и структурами данных .NET
