@@ -25,5 +25,6 @@ uidoc=DM.Instance.CurrentUIApplication.ActiveUIDocument # Получение ф�
 elemIds = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls).WhereElementIsNotElementType().ToElementIds()
 
 uidoc.Selection.SetElementIds(List[ElementId](elemIds)) # Выделение элементов в интерфейсе Revit
+# ids = uidoc.Selection.GetElementIds() # Получение списка ElementId выделенных в интерфейсе Revit элементов
 
 OUT = [doc.GetElement(id) for id in elemIds] # Вывод списка выделенных элементов из узла Python Script
