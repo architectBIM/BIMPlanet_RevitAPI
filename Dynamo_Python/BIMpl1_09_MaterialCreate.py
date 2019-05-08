@@ -10,6 +10,7 @@ import clr # Модуль для подгрузки .NET библиотек
 clr.AddReference('RevitAPI') # Основная библиотека Revit API
 from Autodesk.Revit.DB import Color, Material # Необходимые классы для импорта
 
+# Библиотеки Dynamo
 clr.AddReference('RevitServices') # Работа с документом и транзакциями
 from RevitServices.Persistence import DocumentManager as DM # Менеджер документа
 from RevitServices.Transactions import TransactionManager as TM # Менеджер транзакций
