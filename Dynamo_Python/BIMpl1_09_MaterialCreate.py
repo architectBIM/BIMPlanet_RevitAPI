@@ -28,7 +28,7 @@ TM.Instance.EnsureInTransaction(doc) # Открытие транзакции
 for i in range(len(red)): # Перебор индексов элементов на основе длины списка
 	r,g,b = red[i],green[i],blue[i] # Получение текущих значений цветовых каналов для материала
 	name = '_'.join(['Material',str(r),str(g),str(b)]) # Генерация имени материала
-	mat = doc.GetElement(Material.Create(doc,name)) # Создание материла
+	mat = doc.GetElement(Material.Create(doc,name)) # Создание материалов
 	color = Color(r,g,b) # Создание цвета
 	mat.Color = color # Присвоение цвета материалу
 	mats.append(mat) # Добавление материала в список
